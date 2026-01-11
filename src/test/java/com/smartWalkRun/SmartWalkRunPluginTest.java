@@ -1,13 +1,13 @@
-package com.example;
+package com.smartWalkRun;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ExamplePluginTest
+public class SmartWalkRunPluginTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(SmartWalkRunPlugin.class);
 		RuneLite.main(args);
 	}
 }
